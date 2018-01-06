@@ -43,7 +43,7 @@ public class Soundex {
 	 */
 	public static HashMap<String, ArrayList<String>> generateMap(Set<String> indexKeys) {
 		
-		HashMap<String, ArrayList<String>> map = new HashMap<>();
+		HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
 		
 		Iterator<String> iterator = indexKeys.iterator();
 		String term;
@@ -57,7 +57,7 @@ public class Soundex {
 				terms.add(term);
 				map.put(soundexValue, terms);
 			} else {
-				ArrayList<String> termList = new ArrayList<>();
+				ArrayList<String> termList = new ArrayList<String>();
 				termList.add(term);
 				map.put(soundexValue, termList);
 			}

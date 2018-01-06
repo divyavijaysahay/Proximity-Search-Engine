@@ -1,14 +1,10 @@
 package search_engine.proximty.retrieval_module;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Set;
-
-import com.ir.irproject.phase2_3.eval.EvaluationService;
-import com.ir.irproject.phase2_3.text.Snippet;
 
 import search_engine.proximty.POJO.QueryTermMap;
 import search_engine.proximty.POJO.Querys;
@@ -42,9 +38,6 @@ public class SearchEngine {
 	private TextFile resultFile;
 
 	private boolean displayResults = true;
-	private boolean showSnippet = false;
-
-	private boolean performEvaluation = false;
 	private boolean performQueryCorrection = false;
 
 
@@ -56,28 +49,12 @@ public class SearchEngine {
 		this.performQueryCorrection = performQueryCorrection;
 	}
 
-	public boolean isPerformEvaluation() {
-		return performEvaluation;
-	}
-
-	public void setPerformEvaluation(boolean performEvaluation) {
-		this.performEvaluation = performEvaluation;
-	}
-
 	public boolean isDisplayResults() {
 		return displayResults;
 	}
 
 	public void setDisplayResults(boolean displayResults) {
 		this.displayResults = displayResults;
-	}
-
-	public boolean isShowSnippet() {
-		return showSnippet;
-	}
-
-	public void setShowSnippet(boolean showSnippet) {
-		this.showSnippet = showSnippet;
 	}
 
 	/**
@@ -98,8 +75,6 @@ public class SearchEngine {
 		this.retrievalModel = retrievalModel;
 		this.indexer = new Indexer();
 		this.indexer.generate(1, true);
-		this.snippet = new Snippet();
-		this.evaluationService = new EvaluationService();
 	}
 
 	/**
@@ -162,10 +137,6 @@ public class SearchEngine {
 					}
 
 					resultFile.saveResults(rankedDocuments.getTop(100), this.retrievalModel, queryCount);
-					if (isShowSnippet()) {
-						snippet.saveWithRank(rankedDocuments.getTop(10), queryText, "Query" + queryCount,
-								this.retrievalModel);
-					}
 					rankedDocuments.clear();
 				}
 
@@ -173,18 +144,6 @@ public class SearchEngine {
 
 			if (!isDisplayResults())
 				System.out.println(this.retrievalModel + " results generated.");
-
-			if (isShowSnippet())
-				System.out.println("Snippets generated.");
-
-			if (isPerformEvaluation()) {
-				try {
-					this.evaluationService.analyze(this.retrievalModel);
-				} catch (IOException e) {
-					System.out.println("Evaluation failed.");
-					e.printStackTrace();
-				}
-			}
 
 		} else {
 			System.out.println("Inverted index not present.");

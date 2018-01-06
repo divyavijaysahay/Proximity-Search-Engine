@@ -390,29 +390,17 @@ public class TextFile {
 
 		if (model.equals(RetrievalModel.BM25))
 			return new File(Constants.BM25_FOLDER).listFiles();
-		else if (model.equals(RetrievalModel.TFIDF))
-			return new File(Constants.TFIDF_FOLDER).listFiles();
-		else if (model.equals(RetrievalModel.SMQ))
-			return new File(Constants.SMQ_FOLDER).listFiles();
-		else if (model.equals(RetrievalModel.PROXIMITY_SCORE))
-			return new File(Constants.PROXIMITY_SCORE_FOLDER).listFiles();
 		else
-			return new File(Constants.LUCENE_FOLDER).listFiles();
+			return new File(Constants.PROXIMITY_SCORE_FOLDER).listFiles();
 	}
 
 	public static File getModelQueryFile(RetrievalModel model, String queryId) {
-		
+
 		if (model.equals(RetrievalModel.BM25))
 			return getFile(Constants.BM25_FOLDER + File.separator + queryId, ".txt");
-		else if (model.equals(RetrievalModel.TFIDF))
-			return getFile(Constants.TFIDF_FOLDER + File.separator + queryId, ".txt");
-		else if (model.equals(RetrievalModel.SMQ))
-			return getFile(Constants.SMQ_FOLDER + File.separator + queryId, ".txt");
-		else if (model.equals(RetrievalModel.PROXIMITY_SCORE))
-			return getFile(Constants.PROXIMITY_SCORE_FOLDER + File.separator + queryId, ".txt");
 		else
-			return getFile(Constants.LUCENE_FOLDER + File.separator + queryId, ".txt");
-		
+			return getFile(Constants.PROXIMITY_SCORE_FOLDER + File.separator + queryId, ".txt");
+
 	}
 
 }
