@@ -1,4 +1,4 @@
-# Welcome to ProximitySearchEngine
+# Welcome to [Proximity Search Engine](https://divyavijaysahay.github.io/ProximitySearchEngine/)
 
 **This search engine supports proximity enabled search.**
 
