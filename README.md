@@ -1,12 +1,13 @@
-## Welcome to SearchEngine
+# Welcome to SearchEngine
 
 **This search engine supports proximity enabled search.**
+
 Which means the pages having more number of the query term pairs closer or within a specified distance will be ranked higher than the pages having more number of individual query terms.
 
 Here, the qery term pairs will be created in the order of their occurence in the original query.
 
 
-# Retrieval Model
+## Retrieval Model
 
 **BM25 or Okapi** is used as the base retrieval model for the **proximity retrieval model**.
 The proximity retrieval model presented here is based on the retrieval model presented in the research work:
@@ -17,7 +18,7 @@ doi:10.1007/3-540-36618-0_15
 
 **Must Read the [Research Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.174.8359&rep=rep1&type=pdf) for better understanding**
 
-# How to run this project
+## How to run this project
 
 1. Clone/Download the project.
 2. Import this maven project in eclipse or any IDE supporting Java.
@@ -28,13 +29,13 @@ doi:10.1007/3-540-36618-0_15
 1. Make sure you have your downloaded **html** pages under the **input/Corpus** folder.
 2. Add the queries in the **queries.txt** file present in **input/Query** folder.
 
-# How to use this search engine in your own project
+## How to use this search engine in your own project
 
 1. Import the project as specified above.
 2. Use the following code in you Java file.
 
 `
-    SearchEngine searchEngine = new SearchEngine(RetrievalModel.PROXIMITY_SCORE);
+		SearchEngine searchEngine = new SearchEngine(RetrievalModel.PROXIMITY_SCORE);
 		searchEngine.setDisplayResults(true);
 		searchEngine.search(querys);
 `
