@@ -34,15 +34,15 @@ doi:10.1007/3-540-36618-0_15
 1. Import the project as specified above.
 2. Use the following code in you Java file.
 
-`
+```
 		SearchEngine searchEngine = new SearchEngine(RetrievalModel.PROXIMITY_SCORE);
-		
 		searchEngine.setDisplayResults(true);
 		searchEngine.search(querys);
-`
+```
 
 Enjoy!
 
 Any kind of feedback will be highly appreciated.
+
 
 ## [License](https://github.com/divyavijaysahay/SearchEngine/blob/master/LICENSE)
