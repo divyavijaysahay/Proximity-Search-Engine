@@ -35,9 +35,9 @@ doi:10.1007/3-540-36618-0_15
 2. Use the following code in you Java file.
 
 ```
-		SearchEngine searchEngine = new SearchEngine(RetrievalModel.PROXIMITY_SCORE);
-		searchEngine.setDisplayResults(true);
-		searchEngine.search(querys);
+	SearchEngine searchEngine = new SearchEngine(RetrievalModel.PROXIMITY_SCORE);
+	searchEngine.setDisplayResults(true);
+	searchEngine.search(querys);
 ```
 
 Enjoy!
