@@ -36,6 +36,8 @@ Must Read the [Research Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi
 2. Use the following code in you Java file.
 
 ```
+	Querys querys = new Querys(Constants.QUERY_PATH);
+	
 	SearchEngine searchEngine = new SearchEngine(RetrievalModel.PROXIMITY_SCORE);
 	searchEngine.setDisplayResults(true);
 	searchEngine.search(querys);
