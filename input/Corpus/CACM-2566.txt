@@ -1,0 +1,1 @@
+exact cumulative distribution kolmogorovsmirnov statistic small samples algorithm a487 cacm december 1974 pomeranz kolmogorovsmirnov test ks statistic goodnessoffit testing 8.1 5.5 ca74128 jb january 13 1978 4:8 pm 2566 5 2566 2566 5 2566 2566 5 2566 cacm2566 

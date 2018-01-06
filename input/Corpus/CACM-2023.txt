@@ -1,0 +1,1 @@
+note data base deadlocks cacm july 197 baecker data base synchronization locking deadlock reference count 3.73 ca7714 jb february 1 1978 4:18 pm 15 4 223 1393 4 223 1549 4 223 223 4 223 223 4 223 2168 4 223 3112 4 223 627 4 223 16 5 223 1878 5 223 223 5 223 223 5 223 223 5 223 cacm223 

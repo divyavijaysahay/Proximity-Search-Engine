@@ -1,0 +1,1 @@
+comparison floating point summation methods cacm september 1972 gregory summation floatingpoint addition truncation error error propagation 5.11 ca7298 jb january 27 1978 4:2 pm 2183 4 2282 2282 4 2282 2282 4 2282 286 4 2282 383 4 2282 1328 5 2282 249 5 2282 2282 5 2282 2282 5 2282 2282 5 2282 cacm2282 

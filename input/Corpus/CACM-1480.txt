@@ -1,0 +1,1 @@
+computation chebyshev series coefficients algorithm 277 cacm february 1966 smith ca6626c jb march 23 1978 7:28 pm 148 5 148 148 5 148 148 5 148 1639 5 148 148 6 148 cacm148 

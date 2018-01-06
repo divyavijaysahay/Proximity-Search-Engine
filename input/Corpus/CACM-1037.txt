@@ -1,0 +1,1 @@
+reduction matrix polynomial elements algorithm 17 cacm july 1964 priebe ca6471 jb march 9 1978 8:13 pm 137 4 137 1234 4 137 1358 4 137 1491 4 137 137 5 137 137 5 137 137 5 137 729 5 137 cacm137 

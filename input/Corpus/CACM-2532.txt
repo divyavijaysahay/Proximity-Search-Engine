@@ -1,0 +1,1 @@
+harrisons substring testing technique cacm march 1973 bookstein string substring hashing information storage retrieval 3.74 5.3 5.5 ca7337 jb january 24 1978 1:3 2532 4 2532 2631 4 2532 2746 4 2532 31 4 2532 2139 5 2532 2532 5 2532 2532 5 2532 2532 5 2532 2631 5 2532 2139 6 2532 2532 6 2532 cacm2532 

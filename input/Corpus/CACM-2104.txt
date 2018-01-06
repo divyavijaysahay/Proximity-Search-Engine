@@ -1,0 +1,1 @@
+number doubly restricted partitions algorithm 373 $a1 cacm february 197 white partitions restricted partitions sums integers restricted sums 5.39 ca7211 jb february 14 1978 9:52 214 4 214 2489 4 214 1219 5 214 214 5 214 214 5 214 214 5 214 2489 5 214 1219 6 214 214 6 214 cacm214 

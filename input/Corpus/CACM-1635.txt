@@ -1,0 +1,1 @@
+parameters pseudo rungekutta methods object note present choice free parameters fourthorder pseudo rungekutta methods involving points choice parameters bound principal part truncation error term minimum fourthorder method minimum thirdorder method cacm february 1967 byrne ca6727 jb february 28 1978 3:2 pm 1635 5 1635 1635 5 1635 1635 5 1635 cacm1635 

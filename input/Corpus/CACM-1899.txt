@@ -1,0 +1,1 @@
+simplex method procedure employing lu decomposition algorithm 35 cacm 1969 bartels golub simplex method linear programming lu decomposition roundoff errors computational stability 5.41 ca6951 jb february 17 1978 3:21 pm 1899 5 1899 1899 5 1899 1899 5 1899 cacm1899 

@@ -1,0 +1,1 @@
+insitu transposition rectangular matrix algorithm c38 cacm january 1972 macleod rectangular matrix transpose 5.14 ca72111 jb february 1 1978 8:57 257 4 2392 257 4 2392 258 4 2392 2392 4 2392 2392 4 2392 2416 4 2392 16 5 2392 255 5 2392 2392 5 2392 2392 5 2392 2392 5 2392 cacm2392 

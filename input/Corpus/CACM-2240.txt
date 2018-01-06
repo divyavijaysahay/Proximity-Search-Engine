@@ -1,0 +1,1 @@
+pseudorandom numbers algorithm c266 cacm december 1972 sullins pseudorandom numbers testing random number generators 5.5 ca721215 jb january 27 1978 9:4 224 5 224 224 5 224 224 5 224 cacm224 

@@ -1,0 +1,1 @@
+rosenbrock function minimization algorithm a45 cacm august 1973 machura mulawa function minimization rosenbrocks method 5.19 ca7386 jb january 23 1978 1:43 2468 5 2468 2468 5 2468 2468 5 2468 cacm2468 

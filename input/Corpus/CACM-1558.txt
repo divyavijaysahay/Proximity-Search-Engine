@@ -1,0 +1,1 @@
+generation permutations pseudolexicographic order algorithm cacm july 1967 ordsmith ca67711d jb march 23 1978 3:16 pm 1558 5 1558 1558 5 1558 1558 5 1558 244 5 1558 996 6 1558 1558 6 1558 223 6 1558 521 6 1558 cacm1558 

@@ -1,0 +1,1 @@
+compiling fixedpoint multiplications cacm august 1972 bernstein compiling multiplications fixedpoint arithmetic 4.12 ca7286 jb january 3 1978 9:42 2296 4 2296 2952 4 2296 2185 5 2296 2296 5 2296 2296 5 2296 2296 5 2296 cacm2296 

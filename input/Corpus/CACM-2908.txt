@@ -1,0 +1,1 @@
+note reflectionfree permutation enumeration cacm november 1977 roy permutations reflectionfree generation 5.3 ca77118 jb december 27 1977 7:17 244 4 298 2189 4 298 2417 4 298 255 4 298 2874 4 298 298 4 298 298 4 298 298 4 298 3115 4 298 255 5 298 2884 5 298 298 5 298 298 5 298 298 5 298 521 5 298 cacm298 

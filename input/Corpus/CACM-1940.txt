@@ -1,0 +1,1 @@
+calculation polynomial derivative values horner scheme algorithm 337 cacm january 1969 smith function evaluation polynomial evaluation algol procedure horners scheme 4.22 5.12 ca6919 jb february 2 1978 11:46 194 5 194 194 5 194 194 5 194 cacm194 

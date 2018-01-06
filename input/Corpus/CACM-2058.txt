@@ -1,0 +1,1 @@
+insitu transposition rectangular matrix algorithm 38 $f1 cacm 197 laflin brebner rectangular matrix transpose 5.14 ca758 jb february 13 1978 1:21 pm 257 4 258 258 4 258 2392 4 258 2416 4 258 16 5 258 258 5 258 258 5 258 258 5 258 2416 5 258 16 6 258 258 6 258 cacm258 

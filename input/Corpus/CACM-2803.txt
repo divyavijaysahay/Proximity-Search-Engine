@@ -1,0 +1,1 @@
+pseudoinverses conjugate gradients paper devoted study connections pseudoinverses matrices conjugate gradients conjugate direction routines cacm january 1975 hestenes pseudoinverse conjugate gradients hermitian matrix minimization 5.14 ca7518 jb january 12 1978 1:8 283 5 283 283 5 283 283 5 283 cacm283 

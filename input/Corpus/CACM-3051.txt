@@ -1,0 +1,1 @@
+comparison heaps tl structure simulation event set cacm october 1978 franta maly simulationevent set heaps tl structure 3.34 4.22 5.5 8.1 ca7811 dh january 29 1979 11:51 2844 4 351 2936 4 351 351 4 351 351 4 351 364 4 351 319 4 351 319 4 351 2767 5 351 2844 5 351 351 5 351 351 5 351 351 5 351 cacm351 

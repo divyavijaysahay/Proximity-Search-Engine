@@ -1,0 +1,1 @@
+simulation computer logic fortran arithmetic cacm august 1965 weingarten ca65816 jb march 6 1978 7:53 pm 127 4 128 128 4 128 353 4 128 128 5 128 128 5 128 128 5 128 1329 5 128 149 5 128 128 6 128 cacm128 

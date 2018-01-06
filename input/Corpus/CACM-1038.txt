@@ -1,0 +1,1 @@
+crout equilibration iteration algorithm 135 cacm july 1964 mckeeman ca6479 jb march 9 1978 8:15 pm 138 5 138 138 5 138 138 5 138 cacm138 

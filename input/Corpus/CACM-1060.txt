@@ -1,0 +1,1 @@
+matrix inversion algorithm 231 cacm june 1964 boothroyd ca6467 jb march 9 1978 9:35 pm 16 5 16 16 5 16 16 5 16 cacm16 

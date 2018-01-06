@@ -1,0 +1,1 @@
+gaussian quadrature formulas algorithm 331 $d1 cacm august 197 wise jr quadrature gaussian quadrature numerical integration weight function orthogonal polynomials newtons method successive deflation 5.16 ca7813 jb february 1 1978 3:15 pm 28 5 28 28 5 28 28 5 28 cacm28 

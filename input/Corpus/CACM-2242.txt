@@ -1,0 +1,1 @@
+product type twopoint gausslegendresimpsons integration algorithm a438 cacm december 1972 boland numerical integration product type quadrature gaussian quadrature simpsons rule 5.16 ca721213 jb january 27 1978 9:8 2242 5 2242 2242 5 2242 2242 5 2242 cacm2242 

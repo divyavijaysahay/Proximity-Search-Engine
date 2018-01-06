@@ -1,0 +1,1 @@
+note virtual memory indexes cacm september 1978 maly index btree pages organization linked representation maintenance costs 3.2 3.5 3.51 3.73 3.74 ca7899 dh january 29 1979 6:36 pm 358 4 363 363 4 363 2978 5 363 363 5 363 363 5 363 363 5 363 cacm363 

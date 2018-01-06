@@ -1,0 +1,1 @@
+modified romberg quadrature algorithm 351 $d1 cacm april 197 cook numerical integration romberg quadrature trapezoid values rectangle values error bound 5.16 ca7412 jb february 13 1978 2:42 pm 272 5 272 272 5 272 272 5 272 cacm272 

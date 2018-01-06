@@ -14,6 +14,7 @@ import search_engine.proximty.resource.RetrievalModel;
 import search_engine.proximty.tools.Soundex;
 import search_engine.proximty.tools.TextFile;
 
+
 public class SearchEngine {
 
 	// Represents the retrieval model for this search engine.

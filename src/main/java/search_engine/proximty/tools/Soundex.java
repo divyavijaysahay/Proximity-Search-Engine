@@ -106,7 +106,7 @@ public class Soundex {
 	public static void main(String[] args) {
 
 		System.out.println(Soundex.get("jeet"));
-		System.out.println(Soundex.get("jeetosahaymnjeetcxbr"));
+		System.out.println(Soundex.get("jeetomnjeetcxbr"));
 		System.out.println(Soundex.get("marshmellow"));
 		System.out.println(Soundex.get("marshmallow"));
 		System.out.println(Soundex.get("brimingham"));
