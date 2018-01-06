@@ -16,7 +16,7 @@ The proximity retrieval model presented here is based on the retrieval model pre
 Lecture Notes in Computer Science Advances in Information Retrieval, 2003, pp. 207–218.,
 doi:10.1007/3-540-36618-0_15*
 
-**Must Read the [Research Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.174.8359&rep=rep1&type=pdf) for better understanding**
+Must Read the [Research Paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.174.8359&rep=rep1&type=pdf) for better understanding
 
 ## How to run this project
 
