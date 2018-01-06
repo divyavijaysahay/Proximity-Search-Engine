@@ -1,16 +1,17 @@
 # Welcome to [Proximity Search Engine](https://divyavijaysahay.github.io/ProximitySearchEngine/)
 
-**This search engine supports proximity enabled search.**
+**This search engine is based on proximity dependent retrieval model.**
 
-Which means the pages having more number of the query term pairs closer or within a specified distance will be ranked higher than the pages having more number of individual query terms.
+Due to which the pages having more number of the query term pairs closer or within a specified distance will be ranked higher than the pages having more number of individual query terms.
 
 Here, the query term pairs will be created in the order of their occurrence in the original query.
 
+This search engine is implemented in Java.
 
 ## Retrieval Model
 
 **BM25 or Okapi** is used as the base retrieval model for the **proximity retrieval model**.
-The proximity retrieval model presented here is based on the retrieval model presented in the research work:
+The proximity retrieval model designed here is influenced by the retrieval model presented in the following research work:
 
 *Rasolofo, Yves, and Jacques Savoy. “Term Proximity Scoring for Keyword-Based Retrieval Systems.”
 Lecture Notes in Computer Science Advances in Information Retrieval, 2003, pp. 207–218.,
