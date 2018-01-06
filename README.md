@@ -36,11 +36,13 @@ doi:10.1007/3-540-36618-0_15
 
 `
 		SearchEngine searchEngine = new SearchEngine(RetrievalModel.PROXIMITY_SCORE);
+		
 		searchEngine.setDisplayResults(true);
 		searchEngine.search(querys);
 `
 
 Enjoy!
+
 Any kind of feedback will be highly appreciated.
 
 ## [License](https://github.com/divyavijaysahay/SearchEngine/blob/master/LICENSE)
