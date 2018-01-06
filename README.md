@@ -1,4 +1,4 @@
-# Welcome to [Proximity Search Engine](https://divyavijaysahay.github.io/ProximitySearchEngine/)
+# Welcome to Proximity Search Engine
 
 **This search engine is based on proximity dependent retrieval model.**
 
