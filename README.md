@@ -1,4 +1,4 @@
-# Welcome to SearchEngine
+# Welcome to ProximitySearchEngine
 
 **This search engine supports proximity enabled search.**
 
