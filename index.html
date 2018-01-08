@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Proximitysearchengine : A search engine with proximity dependent retrieval model.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Proximitysearchengine</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.ccs.neu.edu/divyavijay/proximitysearchengine">View on GitHub</a>
+
+          <h1 id="project_title">Proximitysearchengine</h1>
+          <h2 id="project_tagline">A search engine with proximity dependent retrieval model.</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="welcome-to-proximity-search-engine" class="anchor" href="#welcome-to-proximity-search-engine" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to Proximity Search Engine</h1>
+<p><strong>This search engine is based on proximity dependent retrieval model.</strong></p>
+<p>Due to which the pages having more number of the query term pairs closer or within a specified distance will be ranked higher than the pages having more number of individual query terms.</p>
+<p>Here, the query term pairs will be created in the order of their occurrence in the original query.</p>
+<p>This search engine is implemented in Java.</p>
+<h2>
+<a id="retrieval-model" class="anchor" href="#retrieval-model" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Retrieval Model</h2>
+<p><strong>BM25 or Okapi</strong> is used as the base retrieval model for the <strong>proximity retrieval model</strong>.
+The proximity retrieval model designed here is influenced by the retrieval model presented in the following research work:</p>
+<p><em>Rasolofo, Yves, and Jacques Savoy. “Term Proximity Scoring for Keyword-Based Retrieval Systems.”
+Lecture Notes in Computer Science Advances in Information Retrieval, 2003, pp. 207–218.,
+doi:10.1007/3-540-36618-0_15</em></p>
+<p>Must Read the <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.174.8359&amp;rep=rep1&amp;type=pdf">Research Paper</a> for better understanding.</p>
+<h2>
+<a id="how-to-run-this-project" class="anchor" href="#how-to-run-this-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to run this project</h2>
+<ol>
+<li>Clone/Download the project.</li>
+<li>Import this maven project in eclipse or any IDE supporting Java.</li>
+<li>Open the App.java file present under Run package.</li>
+<li>Run the program.</li>
+</ol>
+<p><strong>Note:</strong></p>
+<ol>
+<li>Make sure you have your downloaded <strong>html</strong> pages under the <strong>input/Corpus</strong> folder.</li>
+<li>Add the queries in the <strong>queries.txt</strong> file present in <strong>input/Query</strong> folder.</li>
+</ol>
+<h2>
+<a id="how-to-use-this-search-engine-in-your-own-project" class="anchor" href="#how-to-use-this-search-engine-in-your-own-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use this search engine in your own project</h2>
+<ol>
+<li>Import the project as specified above.</li>
+<li>Use the following code in you Java file.</li>
+</ol>
+<pre><code>	Querys querys = new Querys(Constants.QUERY_PATH);
+	
+	SearchEngine searchEngine = new SearchEngine(RetrievalModel.PROXIMITY_SCORE);
+	searchEngine.setDisplayResults(true);
+	searchEngine.search(querys);
+</code></pre>
+<p>Enjoy!</p>
+<p>Any kind of feedback will be highly appreciated.</p>
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/divyavijaysahay/SearchEngine/blob/master/LICENSE">License</a>
+</h2>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Proximitysearchengine maintained by <a href="https://github.ccs.neu.edu/divyavijay">divyavijay</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
