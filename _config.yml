@@ -2,7 +2,7 @@ title: Proximitysearchengine
 description: A search engine with proximity dependent retrieval model.
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
