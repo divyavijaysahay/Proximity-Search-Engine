@@ -48,4 +48,4 @@ Enjoy!
 Any kind of feedback will be highly appreciated.
 
 
-## [License](https://github.com/divyavijaysahay/SearchEngine/blob/master/LICENSE)
+## [License](https://github.com/divyavijaysahay/Proximity-Search-Engine/blob/master/LICENSE)
